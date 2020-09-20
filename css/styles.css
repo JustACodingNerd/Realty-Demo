@@ -14,6 +14,12 @@ html {
     }
 }
 
+@media (max-width: 375px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
 nav .navbar-nav .nav-item .nav-link {
     color: #808080;
     font-weight: 500;
@@ -44,28 +50,50 @@ nav h6 {
     height: 100%;
 }
 
+@media (max-width: 1200px) {
+    .profile-intro-img-wrapper {
+        height: 400px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .profile-intro-img-wrapper {
+        height: 380px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-intro-img-wrapper {
+        height: 360px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-intro-img-wrapper {
+        height: 300px;
+        width: 230px;
+    }
+}
+
 @media (max-width: 575px) {
     .profile-intro-img-wrapper {
         height: 400px;
     }
 }
 
-@media (max-width: 767px) {
-    .profile-intro-img-wrapper {
-        height: 630px;
-    }
-}
-
-@media (max-width: 991px) {
+@media (max-width: 812px) {
     .profile-intro-img-wrapper {
         height: 300px;
+        width: 230px;
     }
 }
 
-@media (min-width: 991px) {
+@media (max-width: 375px) {
     .profile-intro-img-wrapper {
-        height: 450px;
-        width: 100%;
+        height: 300px;
     }
 }
 
@@ -197,7 +225,7 @@ nav h6 {
 }
 
 .featured-listings .card-text {
-    font-size: .7rem;
+    font-size: .85rem;
 }
 
 .featured-listings .card-body .break {
@@ -366,7 +394,7 @@ nav h6 {
 
 .testimonials-area {
     background-color: #ececec;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .testimonials-area .client-testimonial {
@@ -414,6 +442,10 @@ nav h6 {
 
 .latest-news-area {
     padding: 100px 0;
+}
+
+.latest-news-area .card-news {
+    margin-bottom: 20px;
 }
 
 .latest-news-area .card-news .card-news-img-wrap {
@@ -482,7 +514,7 @@ nav h6 {
 
 .latest-news-area .card-news .card-text {
     color: #808080;
-    font-size: .75rem;
+    font-size: .85rem;
 }
 
 .latest-news-area .card-news .card-news-post-link {
@@ -500,6 +532,12 @@ nav h6 {
 .map-area {
     padding: 0;
     position: relative;
+}
+
+@media (max-width: 960px) {
+    .map-area {
+        display: none;
+    }
 }
 
 .contact-info {
@@ -575,7 +613,6 @@ nav h6 {
     border: transparent;
 }
 
-
 .card-footer-img-wrap .fill {
     overflow: hidden;
     position: relative;
@@ -626,6 +663,18 @@ nav h6 {
 
 .footer-area .unit-price {
     font-weight: 700;
+}
+
+@media (max-width: 960px) {
+    .three-col {
+        display: none;
+    }
+}
+
+@media (min-width: 960px) {
+    .four-col {
+        display: none;
+    }
 }
 
 .copyright-area {
