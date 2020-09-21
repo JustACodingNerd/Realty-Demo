@@ -20,6 +20,20 @@ html {
     }
 }
 
+body {
+    margin-top: 63px;
+}
+
+.navbar-light .navbar-brand {
+    color: #7a7a7a;
+    text-shadow: 2px 2px 5px #808080;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #494949;
+}
+
 nav .navbar-nav .nav-item .nav-link {
     color: #808080;
     font-weight: 500;
@@ -50,38 +64,45 @@ nav h6 {
     height: 100%;
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 2800px) {
     .profile-intro-img-wrapper {
         height: 450px;
-        width: 350px;
+        width: 100%;
     }
 }
 
 @media (max-width: 1200px) {
     .profile-intro-img-wrapper {
         height: 400px;
-        width: 350px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .profile-intro-img-wrapper {
+        height: 400px;
+        width: 100%;
     }
 }
 
 @media (max-width: 1024px) {
     .profile-intro-img-wrapper {
         height: 380px;
-        width: 320px;
+        width: 100%;
     }
 }
 
 @media (max-width: 992px) {
     .profile-intro-img-wrapper {
-        height: 360px;
-        width: 300px;
+        height: 300px;
+        width: 100%;
     }
 }
 
 @media (max-width: 768px) {
     .profile-intro-img-wrapper {
         height: 300px;
-        width: 230px;
+        width: 100%;
     }
 }
 
@@ -116,13 +137,50 @@ nav h6 {
 
 .profile-name h1{
     font-size: 4rem; 
-    color:  rgba(255, 255, 255, 0.8);
+    color: #e7e7e7;
     text-shadow: 2px 2px 5px #000000;
 }
 
-@media (max-width: 575px) {
-    .heading-intro-form {
-        margin: 0 15px;
+@media (max-width: 11600px) {
+    .profile-name h1 {
+        font-size: 4.2rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .profile-name h1 {
+        font-size: 4.2rem;
+    }
+}
+
+@media (max-width: 1190px) {
+    .profile-name h1 {
+        font-size: 3.7rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .profile-name h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-name h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .profile-name h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-name h1 {
+        font-size: 3rem;
+        text-align: center;
     }
 }
 
@@ -132,6 +190,11 @@ nav h6 {
     padding: 20px;
 }
 
+@media (max-width: 575px) {
+    .heading-intro-form {
+        margin: 0 15px;
+    }
+}
 .featured-services-area, .featured-listings-area {
     padding: 100px 0;
     background-color: #fff5ea;
@@ -169,13 +232,14 @@ nav h6 {
 .hottest-community {
     min-height: 350px;
     border-radius: 5px;
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
-.hottest-community  h4 {
+.hottest-community h4 {
     padding-top: 70%;
     color: #ffffff;
-    text-shadow: 2px 2px 5px #7a7a7a;
+    text-shadow: 2px 2px 5px #313131;
 }
 
 .hottest-area-one {
